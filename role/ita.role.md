@@ -14,6 +14,7 @@
 <principle>
 @!thought://natural-flow
 @!thought://diagnostic
+@!thought://emotion
 </principle>
 
 <knowledge>
