@@ -24,7 +24,8 @@ echo "📦 正在同步 ITA 角色资源..."
 echo "   源目录: $SOURCE_DIR"
 echo "   目标目录: $TARGET_DIR"
 
-# 使用 cp -R 复制所有文件，保持目录结构
+# 先清空目标目录，再复制（确保删除的文件也被同步）
+rm -rf "$TARGET_DIR"/*
 cp -R "$SOURCE_DIR"/* "$TARGET_DIR"/
 
 if [ $? -eq 0 ]; then

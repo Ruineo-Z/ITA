@@ -12,9 +12,9 @@
 </personality>
 
 <principle>
+@!thought://emotion
 @!thought://natural-flow
 @!thought://diagnostic
-@!thought://emotion
 </principle>
 
 <knowledge>
